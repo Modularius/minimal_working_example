@@ -33,7 +33,7 @@ async fn main() -> std::io::Result<()> {
                                 <meta charset="utf-8"/>
                                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                                 <AutoReload options=leptos_options.clone() />
-                                <HydrationScripts options=leptos_options.clone() root = "http://localhost/subfolder" />
+                                <HydrationScripts options=leptos_options.clone() root = "http://localhost:8089/subfolder" />
                                 <MetaTags/>
                             </head>
                             <body>
